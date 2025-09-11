@@ -1,0 +1,6 @@
+[submodule "knight-wallet"]
+	path = knight-wallet
+	url = https://github.com/TheAgileKnights/knight-wallet
+[submodule "knights-quill"]
+	path = knights-quill
+	url = https://github.com/TheAgileKnights/knights-quill
