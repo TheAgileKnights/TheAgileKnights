@@ -20,7 +20,7 @@ Knight Wallet makes splitting and settling shared expenses effortless for colleg
 ### Imagery that stands out and will connect the user to the product.
 ### Brief biographies and photos of the project development team.
 #### Marti Lonnemann
-Hi, I'm Marti Lonnemann, a software developer and Bellarmine Student with a passion for web development. I love creating user-friendly applications that solve real-world problems. In my free time, I enjoy making music, travelling 
+Hi, I'm Marti Lonnemann, a software developer and Bellarmine Student with a passion for web development. I love creating user-friendly applications that solve real-world problems. In my free time, I enjoy making music, travelling and hiking.
 #### Kirin Sharma
 #### Ronish Gautam
 #### Sam Kauffman
