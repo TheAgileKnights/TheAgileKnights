@@ -16,6 +16,7 @@ Knight Wallet makes splitting and settling shared expenses effortless for colleg
 - Split expenses among selectable group members
 - Multi-currency support for international use
 - Real-time balance updates
+- Integration with Venmo and other payment platforms
 ### Imagery that stands out and will connect the user to the product.
 ### Brief biographies and photos of the project development team.
 #### Marti Lonnemann
