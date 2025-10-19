@@ -1,3 +1,4 @@
+# Interviews, Personas, Scenarios, and Stories
 ## Interview 1
 Interviewee Name: Frank
 Date: October 10th, 2025
@@ -227,3 +228,77 @@ Hayley goes out with friends for dinner and activities. As the organizer, she pa
 3. As someone receiving cash, I want to timestamp when payment was received so that I don't accidentally ask someone twice if I forget they paid.
 4. As a direct communicator, I want documented proof of expenses and payment status so that my straightforward requests are backed by clear evidence.
 5. As an organizer settling group expenses, I want to see total expected versus total received so that I know immediately if I'm still owed money.
+
+# Features
+## 1. Automatic Expense Capture and Categorization
+### Description
+- As a user making purchases, I want my card transactions to automatically sync to Knight Wallet in real-time so that I don't have to manually enter expenses or save receipts.
+- As a trip organizer, I want to quickly categorize expenses as "personal" or "shared" at the time of transaction so that I don't have to reconstruct my intentions later.
+- As someone doing weekly reconciliation, I want my expenses automatically captured throughout the week so that I don't have to manually review receipts during my tracking sessions.
+- As a budget-conscious student, I need to accurately track all expenses so that I can be sure I know what I spent.
+### Constraints
+Requires integration with banking APIs and payment processors. Some banks may have restricted API access or require user authentication through secure OAuth protocols. Real-time syncing depends on bank transaction posting times, which may have delays.
+### Comments
+Based on Paul's, Firstene's, Frank's, and Hayley's user stories.
+## 2. Itemized Expense Splitting with Tax and Tip Calculation
+### Description
+- As someone paying for a group meal, I want to input individual meal costs so that each person is only charged for what they ordered.
+- As Frank, I want Knight Wallet to automatically calculate and split the tax and tip evenly among all friends to avoid doing tedious math.
+- As a friend, I want to see my portion of the total including tax and tip so I know exactly what I owe.
+- As a user splitting costs, I want to automatically calculate each person's fair share so that I don't have to do mental math.
+### Constraints
+Receipt scanning and OCR (Optical Character Recognition) technology may have accuracy limitations requiring manual verification. Tax and tip calculation algorithms must account for regional tax variations and customizable tipping percentages.
+### Comments
+Based on Firstene's, Frank's, and Utsav's user stories.
+## 3. Automated Payment Reminders and Settlement Tracking
+### Description
+- As a trip organizer, I want to send automated payment reminders at regular intervals so that I don't have to personally ask friends repeatedly for money.
+- As someone waiting for reimbursement, I want the system to escalate reminder urgency over time so that people understand payment is becoming overdue.
+- As someone managing multiple payments, I want to track who has paid and who hasn't so that I can follow up with specific people without bothering those who already settled.
+- As a user tired of reminders, I want automatic notifications sent to group members when I log a shared expense so that everyone stays informed without me playing enforcer.
+- As a friend who owes money, I want to receive a notification immediately after the purchase so that I don't forget to pay later.
+### Constraints
+Push notification delivery depends on user permission settings and device configurations. Email reminders may be filtered to spam. Reminder escalation timing must balance effectiveness with avoiding user annoyance.
+### Comments
+Based on Paul's, Firstene's, Utsav's, and Hayley's user stories.
+## 4. Payment Request Documentation and Verification
+## Description
+- As someone settling accounts, I want to generate a clear expense summary with transaction timestamps so that I can present documented proof to friends.
+- As a user requesting payment, I want to clearly show each person what they paid for and when so that payment requests feel justified rather than confrontational.
+- As someone dealing with disputes, I want to distinguish between verified card transactions and unverified claims so that I can fairly evaluate what was actually spent.
+- As someone making shared purchases, I want to automatically capture itemized receipts so that I have documentation when requesting reimbursement later.
+### Constraints
+Receipt storage requires secure cloud infrastructure with appropriate data retention policies. Image quality of captured receipts must be sufficient for later reference. Data must comply with financial privacy regulations.
+### Comments
+Based on Paul's, Firstene's, Utsav's, and Hayley's user stories.
+## 5. Multi-Payment Method Tracking (Venmo, Cash, Card)
+### Description
+- As someone receiving mixed payment types, I want to log both cash and digital payments in one place so that I have a complete record of who paid.
+- As a user tracking pending payments, I want to distinguish between people who paid immediately versus those who said "later" so that I know who needs follow-up.
+- As someone receiving cash, I want to timestamp when payment was received so that I don't accidentally ask someone twice if I forget they paid.
+- As Frank's friend, I want to easily be able to pay him back so that there is no hassle.
+### Constraints
+Integration with payment platforms like Venmo, PayPal, and Zelle requires API partnerships or manual entry options. Cash payments require manual logging with no automated verification capability. Payment status synchronization may have delays.
+### Comments
+Based on Frank's, Hayley's, and Utsav's user stories.
+## 6. Recurring Expense Management (Utilities, Bills)
+### Description
+- As the bill payer, I want to input the total utility cost so that Knight Wallet can automatically divide it among roommates.
+- As a roommate, I want a clear view of the utility charges so I understand what I'm paying for.
+- As someone tracking who I owe, I want a running list of people and amounts with due dates so that I don't have to rewrite this information monthly.
+- As a roommate, I want to receive a notification when a new bill is added so I can pay on time.
+- As a roommate, I want to be able to request adjustments if I was away for part of the month so that payments are fair.
+### Constraints
+Recurring expense patterns must be user-configurable to account for variable utility costs. Historical data analysis requires sufficient transaction history. Adjustment requests need workflow approval mechanisms to prevent disputes.
+### Comments
+Based on Frank's and Hayley's user stories.
+## 7. Trip and Event Expense Consolidation
+### Description
+- As the booker for the trip, I want to track the cost of the rental so that I can split it later.
+- As an event organizer, I want to combine multiple related expenses (tickets and snacks) into one group expense so that I can request one total payment per person.
+- As someone paying for a group order, I want to automatically log the total amount and split it among participants so that I have a clear record of what each person owes.
+- As someone managing group expenses, I want to maintain my own verified transaction history even when others don't participate fully so that my records are always complete.
+### Constraints
+Event grouping logic must allow flexible date ranges and participant lists. Multi-day trips require expense categorization across different days and activities. Storage requirements increase with detailed trip documentation.
+### Comments
+Based on Paul's, Frank's, and Utsav's user stories.
