@@ -31,11 +31,11 @@ Frank's primary need is an efficient system to track shared costs and settle up 
 
 ### Scenarios
 #### Scenario 1: Weekend Trip Cost Split
-Frank and his friends plan a Fall Break trip to Gatlinburg, Tennessee to explore the outdoors and tourism attractions. Frank spots a good cabin rental deal and pays for it upfront, also volunteering to drive the group. Throughout the trip, he tracks expenses he pays out of pocket including the cabin rental, gas, and shared meals. At trip's end, Frank uses KnightWallet to split costs according to what each person owes based on their participation in different activities. He sends payment reminders to friends, allowing them to see exactly what they're being charged for and giving them the option to question any mistakes in item assignment. The system helps Frank maintain his budget awareness while avoiding the social awkwardness of immediately demanding payment for every expense during the vacation.
+Frank and his friends plan a Fall Break trip to Gatlinburg, Tennessee to explore the outdoors and tourism attractions. Frank spots a good cabin rental deal and pays for it upfront, also volunteering to drive the group. Throughout the trip, he tracks expenses he pays out of pocket including the cabin rental, gas, and shared meals. At trip's end, Frank uses Knight Wallet to split costs according to what each person owes based on their participation in different activities. He sends payment reminders to friends, allowing them to see exactly what they're being charged for and giving them the option to question any mistakes in item assignment. The system helps Frank maintain his budget awareness while avoiding the social awkwardness of immediately demanding payment for every expense during the vacation.
 #### Scenario 2: Utility Bill Payments
-Frank lives with two roommates in an apartment where they're billed monthly for water, electricity, and internet based on usage, so amounts vary each month. Frank has his credit card on file to cover these expenses and needs to split the bills with his roommates after invoices arrive. He uses KnightWallet to input the total utility costs, which automatically divides them evenly among the three roommates. His roommates receive notifications when new bills are added so they can pay promptly, and they can view clear breakdowns of the charges to understand what they're paying for. The system tracks who has and hasn't paid, making it easy for Frank to follow up if needed. Roommates can also request adjustments if they were away for part of the month, ensuring fair payment distribution.
+Frank lives with two roommates in an apartment where they're billed monthly for water, electricity, and internet based on usage, so amounts vary each month. Frank has his credit card on file to cover these expenses and needs to split the bills with his roommates after invoices arrive. He uses Knight Wallet to input the total utility costs, which automatically divides them evenly among the three roommates. His roommates receive notifications when new bills are added so they can pay promptly, and they can view clear breakdowns of the charges to understand what they're paying for. The system tracks who has and hasn't paid, making it easy for Frank to follow up if needed. Roommates can also request adjustments if they were away for part of the month, ensuring fair payment distribution.
 #### Scenario 3: Dinner with Friends
-Frank and five friends visit a new Mexican restaurant with excellent food. When the check arrives, the server explains they have a single-check policy and cannot split the bill six ways. Frank confidently pays the entire $180 bill and leaves a generous tip for their helpful server. He then uses KnightWallet to input individual meal costs so each person is charged only for what they ordered. The app automatically calculates and splits the tax and tip evenly among the six people, avoiding tedious manual math. Frank sends payment requests with clear totals, allowing friends to pay immediately without rechecking the receipt. The transaction is saved in his history so he can monitor his spending on group outings over time.
+Frank and five friends visit a new Mexican restaurant with excellent food. When the check arrives, the server explains they have a single-check policy and cannot split the bill six ways. Frank confidently pays the entire $180 bill and leaves a generous tip for their helpful server. He then uses Knight Wallet to input individual meal costs so each person is charged only for what they ordered. The app automatically calculates and splits the tax and tip evenly among the six people, avoiding tedious manual math. Frank sends payment requests with clear totals, allowing friends to pay immediately without rechecking the receipt. The transaction is saved in his history so he can monitor his spending on group outings over time.
 
 ### Stories
 #### User Stories for Scenario 1: Weekend Trip Cost Split
@@ -45,7 +45,7 @@ Frank and five friends visit a new Mexican restaurant with excellent food. When 
 4. As Frank's friend, I want to easily be able to pay him back so that there is no hassle.
 5. As Frank's friend, I would like to know exactly what I am being requested for so I can see if there may be any mistakes in assigning me items.
 #### User Stories for Scenario 2: Utility Bill Payments
-1. As the bill payer, I want to input the total utility cost so that KnightWallet can automatically divide it among roommates.
+1. As the bill payer, I want to input the total utility cost so that Knight Wallet can automatically divide it among roommates.
 2. As a roommate, I want a clear view of the utility charges so I understand what I'm paying for.
 3. As Frank, I want to see who has and hasn't paid easily so I can track payment status.
 4. As a roommate, I want to receive a notification when a new bill is added so I can pay on time.
@@ -53,7 +53,7 @@ Frank and five friends visit a new Mexican restaurant with excellent food. When 
 #### User Stories for Scenario 3: Dinner with Friends
 1. As Frank, I want to input individual meal costs so that each person is only charged for what they ordered.
 2. As a friend, I want to see my portion of the total including tax and tip so I know exactly what I owe.
-3. As Frank, I want KnightWallet to automatically calculate and split the tax and tip evenly among all friends to avoid doing tedious math.
+3. As Frank, I want Knight Wallet to automatically calculate and split the tax and tip evenly among all friends to avoid doing tedious math.
 4. As a friend, I want to receive a simple payment request with a clear total so I can pay immediately without rechecking the receipt.
 5. As Frank, I want to save transaction history so I can see what I've spent on group outings.
 
@@ -242,7 +242,7 @@ Requires integration with banking APIs and payment processors. Some banks may ha
 Based on Paul's, Firstene's, Frank's, and Hayley's user stories.
 ## 2. Itemized Expense Splitting with Tax and Tip Calculation
 ### Description
-- As someone paying for a group meal, I want to input individual meal costs so that each person is only charged for what they ordered.
+- As someone paying for a group meal, I want to use Knight Wallet to input individual meal costs so that each person is only charged for what they ordered.
 - As Frank, I want Knight Wallet to automatically calculate and split the tax and tip evenly among all friends to avoid doing tedious math.
 - As a friend, I want to see my portion of the total including tax and tip so I know exactly what I owe.
 - As a user splitting costs, I want to automatically calculate each person's fair share so that I don't have to do mental math.
@@ -252,8 +252,8 @@ Receipt scanning and OCR (Optical Character Recognition) technology may have acc
 Based on Firstene's, Frank's, and Utsav's user stories.
 ## 3. Automated Payment Reminders and Settlement Tracking
 ### Description
-- As a trip organizer, I want to send automated payment reminders at regular intervals so that I don't have to personally ask friends repeatedly for money.
-- As someone waiting for reimbursement, I want the system to escalate reminder urgency over time so that people understand payment is becoming overdue.
+- As a trip organizer, I want Knight Wallet to send automated payment reminders at regular intervals so that I don't have to personally ask friends repeatedly for money.
+- As someone waiting for reimbursement, I want Knight Wallet to escalate reminder urgency over time so that people understand payment is becoming overdue.
 - As someone managing multiple payments, I want to track who has paid and who hasn't so that I can follow up with specific people without bothering those who already settled.
 - As a user tired of reminders, I want automatic notifications sent to group members when I log a shared expense so that everyone stays informed without me playing enforcer.
 - As a friend who owes money, I want to receive a notification immediately after the purchase so that I don't forget to pay later.
@@ -273,7 +273,7 @@ Receipt storage requires secure cloud infrastructure with appropriate data reten
 Based on Paul's, Firstene's, Utsav's, and Hayley's user stories.
 ## 5. Multi-Payment Method Tracking (Venmo, Cash, Card)
 ### Description
-- As someone receiving mixed payment types, I want to log both cash and digital payments in one place so that I have a complete record of who paid.
+- As someone receiving mixed payment types, I want to use Knight Wallet to log both cash and digital payments in one place so that I have a complete record of who paid.
 - As a user tracking pending payments, I want to distinguish between people who paid immediately versus those who said "later" so that I know who needs follow-up.
 - As someone receiving cash, I want to timestamp when payment was received so that I don't accidentally ask someone twice if I forget they paid.
 - As Frank's friend, I want to easily be able to pay him back so that there is no hassle.
@@ -294,8 +294,8 @@ Recurring expense patterns must be user-configurable to account for variable uti
 Based on Frank's and Hayley's user stories.
 ## 7. Trip and Event Expense Consolidation
 ### Description
-- As the booker for the trip, I want to track the cost of the rental so that I can split it later.
-- As an event organizer, I want to combine multiple related expenses (tickets and snacks) into one group expense so that I can request one total payment per person.
+- As the booker for the trip, I want to use Knight Wallet to track the cost of the rental so that I can split it later.
+- As an event organizer, I want to use Knight Wallet to combine multiple related expenses (tickets and snacks) into one group expense so that I can request one total payment per person.
 - As someone paying for a group order, I want to automatically log the total amount and split it among participants so that I have a clear record of what each person owes.
 - As someone managing group expenses, I want to maintain my own verified transaction history even when others don't participate fully so that my records are always complete.
 ### Constraints
