@@ -174,7 +174,7 @@ Interviewee Name: Hayley Bratcher
 Date: October 19, 2025  
 
 **Question 1: Tell me about how you currently manage your personal expenses and any shared expenses with roommates, friends, or groups.**
-**Answer:** When going on trips with friends where she pays for everything, Hayley divides expenses evenly between each friend. She primarily uses Venmo for reimbursement, with friends sending her the appropriate amounts through the app.
+**Answer:** When going on trips and spending money with friends where she pays for everything, Hayley divides expenses evenly between each friend. She primarily uses Venmo for reimbursement, with friends sending her the appropriate amounts through the app.
 
 **Question 2: Walk me through the last time you had to split a bill or shared expense with others. What happened?**
 **Answer:** The last time she split a bill, everybody either gave her cash or Venmo'd her the right amount of money. The process was straightforward with people paying their share.
@@ -186,7 +186,7 @@ Date: October 19, 2025
 **Answer:** Recently she's been keeping a budget. Every single month she writes a new budget where she writes down each name of people she owes money to, how much she owes them, and the date when she needs to pay them. She acknowledged this system is "very inefficient."
 
 **Question 5: What would make you feel more comfortable asking people to pay you back or reminding them about money they owe?**
-**Answer:** For Hayley, the most comfortable approach is being straight up and direct. She's the type of person who doesn't beat around the bush—she would rather be straightforward and explain why she needs the money. She prefers asking people to pay rather than reminding them because "reminding never gets done."
+**Answer:** For Hayley, the most comfortable approach is being straight up and direct. She's the type of person who doesn't beat around the bush—she would rather be straightforward and explain why she needs the money. She prefers asking people to pay rather than reminding them because "reminding never gets anything done."
 
 **Question 6: If you could wave a magic wand and fix one thing about handling expenses, what would it be?**
 **Answer:** Saving money would be the one thing she'd fix. She feels it's very hard to save money, especially monthly when there are so many bills to pay. Her biggest problem is trying to save money.
